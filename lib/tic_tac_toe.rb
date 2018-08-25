@@ -103,7 +103,7 @@ def play
     turn
   end
    if won?
-    winningPlayer = winner(@board)
+    winningPlayer = winner
     puts "Congratulations #{winningPlayer}!"
   elsif draw?
     puts "Cat's Game!"
