@@ -82,5 +82,9 @@ def full?
   @board.none? { |openMoves| openMoves == " "} 
 end
 
+def draw?
+    full? && !won?
+end
+
 
 end
