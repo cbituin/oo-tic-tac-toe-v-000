@@ -92,4 +92,10 @@ def over?
   end
 end
 
+def winner
+  if won?
+    board[won?(board)[0]]
+  end
+end
+
 end
