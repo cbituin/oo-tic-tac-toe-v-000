@@ -98,6 +98,12 @@ def winner
   end
 end
 
+def play
+#   counter = 0
+  until over?
+    turn
+    # counter += 1
+  end
 
 
 end
