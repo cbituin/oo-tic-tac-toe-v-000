@@ -105,7 +105,7 @@ def play
    if won?
     winningPlayer = winner(@board)
     puts "Congratulations #{winningPlayer}!"
-  elsif draw?(board)
+  elsif draw?
     puts "Cat's Game!"
   end
 end
