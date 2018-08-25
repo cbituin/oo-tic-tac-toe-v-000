@@ -95,7 +95,9 @@ end
 def winner
   if won?
     @board[won?[0]]
-  en
+  end
 end
+
+
 
 end
